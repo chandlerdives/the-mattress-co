@@ -1,0 +1,132 @@
+/* ----- CSS Reset ----- */
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* ---- Universal Styles ---- */
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.center {text-align: center;}
+.left {text-align: left;}
+.right {text-align: right;}
+
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 22rem;
+}
+
+.button {
+ text-decoration: none;
+ text-transform: uppercase;
+ padding: 0.5rem 3rem;
+ margin-top: 1rem;
+ color: rgb(60,60,65);
+ border: 1px solid grey;
+ display: inline-block;
+}
+
+.button:hover {
+ border: 1px solid teal;
+ color: teal;
+ transition: 0.5s;
+}
+
+.bg-light {
+  background-color: #bdc3c7;
+}
+
+.bg-dark {
+  background-color: #222f3e;
+}
+
+.padded {
+  padding: 5%;
+}
+
+h2, h3, p {
+    margin-bottom: 1rem;
+}
+
+section, div {
+  padding: 1rem;
+  border: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+/* ---- Title & Nav specific styles ---- */
+.title h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+a:hover {
+  color: teal;
+  transition: 0.5s;
+}
+
+/* ---- Banner 1 (sleep like a baby) specific styles ---- */
+.banner {
+  background-image: url('images/mattress-co-bg.jpg');
+  min-height: 80vh;
+  color: white;
+}
+
+.banner h3 {
+  font-weight: bold;
+}
+
+.banner h2 {
+  font-weight: normal;
+}
+
+/* ------ CTA (a good night sleep) specific styles ----- */
+
+
+/* ------ Map and text specific styles ---- */
+
+
+
+/* ----- Footer specific styles ---- */
+.footer {
+  color: white;
+}
+
+.fab {
+  font-size: 3rem;
+}
+
+.fab:hover {
+  color: teal;
+  transition: 0.5s;
+}
+
+.footer a {
+    
+}
